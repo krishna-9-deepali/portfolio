@@ -171,3 +171,14 @@ main{
 .showcase-blog {
     padding-bottom: 6rem;
 }
+@media (max-width: 600px) {
+    .navigation .nav-pills {
+        display: flex;
+        justify-content: start;
+    }
+    .link {
+        box-sizing: border-box;
+        text-decoration: none;
+        padding: 0rem ;
+    }
+  }
